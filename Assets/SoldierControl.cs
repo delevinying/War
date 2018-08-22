@@ -9,15 +9,19 @@ public class SoldierControl : MonoBehaviour {
     private SoldierState _state;
     private Transform _tf;
     private Rigidbody _rd;
+    private Animator _amt;
 	// Use this for initialization
 	void Start () {
         this._tf = this.gameObject.transform;
         this._rd = this.gameObject.GetComponent<Rigidbody>();
+        this._amt = this.gameObject.GetComponentInChildren<Animator>();
+        this._amt.SetBool("Run",true);
 	}
 	
 	// Update is called once per frame
 	void Update () {
         this._rd.MovePosition(this._tf.position + this._tf.forward* speed);
+        //this._amt
 	}
 }
 

@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{FD724DD0-24F2-1570-B439-CF8ED7D1BE66}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SoldierControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TowerControl.cs">
     <Files>
-      <File FileName="Assets/SoldierControl.cs" Line="7" Column="10" />
+      <File FileName="Assets/SoldierControl.cs" Line="11" Column="27" />
+      <File FileName="Assets/TowerControl.cs" Line="7" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
